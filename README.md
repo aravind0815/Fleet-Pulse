@@ -17,13 +17,6 @@ FleetPulse is a full-stack, AI-driven diagnostics and visualization system for t
 - Live geolocation map, anomaly detection, truck profiling
 - Modern design, animations, and chatbot assistant
 
----
-
-## 🚀 Live Demo Preview
-
-![FleetPulse Dashboard Demo](https://your-demo-preview-link.com)
-
----
 
 ## 📂 Project Structure
 
@@ -107,13 +100,17 @@ streamlit run app.py
 
 ## 📸 Screenshots
 
-| Dashboard Overview | Live Map |
-|--------------------|----------|
-| ![Overview](assets/overview.png) | ![Live Map](assets/livemap.png) |
+# Dashboard Overview
+<img width="1510" alt="Screenshot 2025-05-08 at 7 43 28 PM" src="https://github.com/user-attachments/assets/58fed4ab-ad27-49b7-b0ae-678da980d299" />
 
-| ML Panel | Truck Profile |
-|----------|---------------|
-| ![ML](assets/mlpanel.png) | ![Profile](assets/truckprofile.png) |
+# Live Map 
+<img width="1512" alt="Screenshot 2025-05-08 at 7 44 26 PM" src="https://github.com/user-attachments/assets/9ff4751b-f7bc-49ce-8fcf-f9be3d55ca74" />
+
+# ML Panel
+<img width="1512" alt="Screenshot 2025-05-08 at 7 45 00 PM" src="https://github.com/user-attachments/assets/6ec46dca-2579-41b9-9b61-69926c766ec5" />
+
+# Truck Profile
+<img width="1512" alt="Screenshot 2025-05-08 at 7 45 40 PM" src="https://github.com/user-attachments/assets/1f118fa0-462c-4d7c-874b-efe238120eb0" />
 
 ---
 
@@ -132,6 +129,12 @@ streamlit run app.py
 Made with 💙 by [Aravind Kalyan Sivakumar](https://github.com/aravind0815)
 
 > For collaboration, feedback or hiring inquiries, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/aravindkalyan007/)
+
+---
+
+## 🚀 Live Demo Preview
+
+![FleetPulse Dashboard Demo](https://fleetpulse-aravind0815.streamlit.app/)
 
 ---
 
