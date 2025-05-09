@@ -17,6 +17,41 @@ FleetPulse is a full-stack, AI-driven diagnostics and visualization system for t
 - Live geolocation map, anomaly detection, truck profiling
 - Modern design, animations, and chatbot assistant
 
+---
+
+## 🚨 Problem Statement
+Fleet operators today face critical challenges with unplanned truck breakdowns, which cause:
+- Unexpected delays in logistics and delivery timelines
+- Costly emergency repairs
+- Safety risks for drivers and cargo
+- A lack of real-time diagnostic intelligence to prevent failures before they occur
+- Despite advancements in GPS and vehicle telemetry, most fleet monitoring systems are reactive—they only report problems after they happen. There’s no predictive intelligence that enables preemptive maintenance decisions.
+
+---
+
+🧠 Our Solution: FleetPulse – AI-Powered Truck Breakdown Intelligence
+FleetPulse is a real-time predictive maintenance platform built with Kafka, PySpark, PostgreSQL, and Streamlit, offering:
+
+📡 Live Telemetry Ingestion
+Simulated sensor data from 10+ trucks streamed via Kafka and processed in Spark.
+
+⚙️ Real-Time ML Predictions
+AI model (Logistic Regression/XGBoost) predicts breakdown risk using a rolling window of speed & temperature data.
+
+🖥️ Interactive Dashboard
+Built in Streamlit with:
+
+- 📊 Overview KPIs & trend charts
+- 🛰️ Live GPS map of risky trucks
+- 📈 Anomaly plots (spikes in speed/temp)
+- 📘 Truck diagnostic timelines
+- 🤖 ML Inference tool for simulations
+- 📝 Downloadable fleet reports
+- ☁️ Cloud-Ready & Auto-Updating
+
+Deployed on Streamlit Cloud with Render PostgreSQL backend.
+
+---
 
 ## 📂 Project Structure
 
@@ -124,19 +159,10 @@ streamlit run app.py
 
 ---
 
-## 📫 Contact / Connect
-
-Made with 💙 by [Aravind Kalyan Sivakumar](https://github.com/aravind0815)
-
-> For collaboration, feedback or hiring inquiries, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/aravindkalyan007/)
-
----
-
-## 🚀 Live Demo Preview
-
-![FleetPulse Dashboard Demo](https://fleetpulse-aravind0815.streamlit.app/)
-
----
+👨‍💻 Maintainer
+Aravind Kalyan Sivakumar
+NJIT | Data Scientist | AI/ML Enthusiast
+🌐 [LinkedIn](https://www.linkedin.com/in/aravindkalyan007/) • [GitHub](https://github.com/aravind0815)
 
 ## 🧠 Future Scope
 
